@@ -1,10 +1,7 @@
 # ReportBot-glory-to-Ukraine
 This bot is created for make mass report of some russian channel, to help Ukraine.
 I have read the list, of the Youtube Channel to report, created by the ukraine IT army that said: "Report this channels". I have made a bot that reports automatically and also forever.
-
-What do you need for use this bot?
-  
-
+ 
 
 ## Installation
 Download on your computer the file: "russiaDestroyer.py"
@@ -23,7 +20,7 @@ If you have problems with the installation of Chromedriver and selenium watch th
 The parts below are the parts of code that you have to modify. The other parts need to be the same as the "russiaDestroyer.py" file.
 ```python
 # Insert the Path of your webdriver in the quotation marks 
-driver = webdriver.Chrome('')
+driver = webdriver.Chrome('PATH')
 
 # Insert your new mail of the google account in the quotation marks after "send_keys"
 driver.find_element_by_xpath('//input[@type="email"]').send_keys('EMAIL')
@@ -35,7 +32,7 @@ driver.find_element_by_xpath('//input[@type="password"]').send_keys('PASSWORD')
  driver.get('CHANNEL ABOUT PAGE')
 
 # Choose the times that you want to repeat the report in the brackets after "range"
-for i in range(NUMBER):
+for i in range('NUMBER'):
          __russiaDestroyer__()
 
 ```
