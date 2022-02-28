@@ -1,4 +1,5 @@
-```python```
+```
+python
 from selenium import webdriver
 from time import sleep
 
@@ -33,4 +34,4 @@ def __russiaDestroyer__():
 
 for i in range(NUMBER OF REPORTS):
          __russiaDestroyer__()
-```python```
+```
